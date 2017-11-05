@@ -1,6 +1,6 @@
 header{
 	font-family: Georgia, Times;
-	margin: 120px
+	margin: 120px;
 }
 
 h2{
@@ -152,7 +152,17 @@ p {
 
 /*MEDIA QUERIES*/
 
+@media screen and (max-width: 768px) {
+	body { color: orange; }
+}
 
+@media screen and (max-width: 640px) {
+	.content {background-color: lightyellow}
+}
+
+@media screen and (max-width: 980px){
+	.topNav {background-color: lightgray}
+}
 
 
 
